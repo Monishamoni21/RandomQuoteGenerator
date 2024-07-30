@@ -1,0 +1,47 @@
+body {
+    font-family:cursive;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    font-size:2em;
+    margin-bottom: 30px;
+}
+
+#quote-button {
+    font-weight: 600; 
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 40px;
+    background-color: #6df972;
+    color: rgb(0, 8, 7);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#quote-button:hover {
+    font-family:cursive;
+    background-color: #41fbf2;
+    color: rgb(0, 0, 0);
+}
+
+#quote-container {
+    background-color: #5adeff;
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    padding: 30px;
+    border-radius: 50px;
+    width: 350px;
+
+}
+
+#quote {
+    align-items: center;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
